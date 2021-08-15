@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Timothy Ganoza\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.0.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\Timothy Ganoza\.nuget\packages\" />
+    <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgUno_UI Condition=" '$(PkgUno_UI)' == '' ">C:\Users\Timothy Ganoza\.nuget\packages\uno.ui\3.9.7</PkgUno_UI>
+    <PkgUno_UI_RemoteControl Condition=" '$(PkgUno_UI_RemoteControl)' == '' ">C:\Users\Timothy Ganoza\.nuget\packages\uno.ui.remotecontrol\3.9.7</PkgUno_UI_RemoteControl>
+    <PkgUno_Microsoft_Toolkit_Uwp_UI_Controls_Primitives Condition=" '$(PkgUno_Microsoft_Toolkit_Uwp_UI_Controls_Primitives)' == '' ">C:\Users\Timothy Ganoza\.nuget\packages\uno.microsoft.toolkit.uwp.ui.controls.primitives\7.0.0</PkgUno_Microsoft_Toolkit_Uwp_UI_Controls_Primitives>
+    <PkgUno_Microsoft_Toolkit_Uwp_UI_Controls_Media Condition=" '$(PkgUno_Microsoft_Toolkit_Uwp_UI_Controls_Media)' == '' ">C:\Users\Timothy Ganoza\.nuget\packages\uno.microsoft.toolkit.uwp.ui.controls.media\7.0.0</PkgUno_Microsoft_Toolkit_Uwp_UI_Controls_Media>
+    <PkgUno_Microsoft_Toolkit_Uwp_UI_Controls_Core Condition=" '$(PkgUno_Microsoft_Toolkit_Uwp_UI_Controls_Core)' == '' ">C:\Users\Timothy Ganoza\.nuget\packages\uno.microsoft.toolkit.uwp.ui.controls.core\7.0.0</PkgUno_Microsoft_Toolkit_Uwp_UI_Controls_Core>
+    <PkgUno_Microsoft_Toolkit_Uwp_UI_Controls_Markdown Condition=" '$(PkgUno_Microsoft_Toolkit_Uwp_UI_Controls_Markdown)' == '' ">C:\Users\Timothy Ganoza\.nuget\packages\uno.microsoft.toolkit.uwp.ui.controls.markdown\7.0.0</PkgUno_Microsoft_Toolkit_Uwp_UI_Controls_Markdown>
+    <PkgUno_Microsoft_Toolkit_Uwp_UI_Controls_Layout Condition=" '$(PkgUno_Microsoft_Toolkit_Uwp_UI_Controls_Layout)' == '' ">C:\Users\Timothy Ganoza\.nuget\packages\uno.microsoft.toolkit.uwp.ui.controls.layout\7.0.0</PkgUno_Microsoft_Toolkit_Uwp_UI_Controls_Layout>
+    <PkgUno_Microsoft_Toolkit_Uwp_UI_Controls_Input Condition=" '$(PkgUno_Microsoft_Toolkit_Uwp_UI_Controls_Input)' == '' ">C:\Users\Timothy Ganoza\.nuget\packages\uno.microsoft.toolkit.uwp.ui.controls.input\7.0.0</PkgUno_Microsoft_Toolkit_Uwp_UI_Controls_Input>
+  </PropertyGroup>
+</Project>

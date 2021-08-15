@@ -1,0 +1,98 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Timothy Ganoza\\Desktop\\LapsRemote\\LapsRemote\\LapsRemote.macOS\\LapsRemote.macOS.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Timothy Ganoza\\Desktop\\LapsRemote\\LapsRemote\\LapsRemote.macOS\\LapsRemote.macOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Timothy Ganoza\\Desktop\\LapsRemote\\LapsRemote\\LapsRemote.macOS\\LapsRemote.macOS.csproj",
+        "projectName": "LapsRemote.macOS",
+        "projectPath": "C:\\Users\\Timothy Ganoza\\Desktop\\LapsRemote\\LapsRemote\\LapsRemote.macOS\\LapsRemote.macOS.csproj",
+        "packagesPath": "C:\\Users\\Timothy Ganoza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Timothy Ganoza\\Desktop\\LapsRemote\\LapsRemote\\LapsRemote.macOS\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Timothy Ganoza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinmac20"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\Local Nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinmac20": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinmac20": {
+          "dependencies": {
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Toolkit": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.Toolkit.Uwp.UI.Controls": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Prism.Uno": {
+              "target": "Package",
+              "version": "[8.1.97, )"
+            },
+            "Uno.Microsoft.Toolkit.Uwp.UI.Behaviors": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Uno.Microsoft.Toolkit.Uwp.UI.Controls": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Uno.Microsoft.Xaml.Behaviors.Interactivity": {
+              "target": "Package",
+              "version": "[2.0.3-uno.95, )"
+            },
+            "Uno.UI": {
+              "target": "Package",
+              "version": "[3.9.7, )"
+            },
+            "Uno.UI.RemoteControl": {
+              "target": "Package",
+              "version": "[3.9.7, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

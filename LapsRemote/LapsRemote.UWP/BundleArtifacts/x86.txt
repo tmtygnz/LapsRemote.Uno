@@ -1,0 +1,2 @@
+MainPackage=C:\Users\Timothy Ganoza\Desktop\LapsRemote\LapsRemote\LapsRemote.UWP\bin\x86\Release\LapsRemote.UWP_1.0.0.0_x86.msix
+SymbolPackage=C:\Users\Timothy Ganoza\Desktop\LapsRemote\LapsRemote\LapsRemote.UWP\obj\x86\Release\Symbols\LapsRemote.UWP_1.0.0.0_x86.appxsym
