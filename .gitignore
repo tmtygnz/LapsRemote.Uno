@@ -1,0 +1,7 @@
+[Bb]uild/
+[Bb]in/
+[Oo]bj/
+[Aa]ppPackages
+.vs/
+.suo
+.idea
