@@ -13,7 +13,7 @@ jobs:
       - run:
           name: "Build Wpf"
           command: |
-            msbuild ./LapsRemote/LapsRemote.Skia.Wpf.Host/LapsRemote.Skia.Wpf.Host.csproj -property:Configuration=Release 
+            dotnet build ./LapsRemote/LapsRemote.Skia.Wpf.Host/LapsRemote.Skia.Wpf.Host.csproj -property:Configuration=Release 
       - run:
           name: "Build Uwp"
           command: |
